@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name:  python-app-on-org
+  description: Any component description
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: dmaproz/python-app-on-org
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
